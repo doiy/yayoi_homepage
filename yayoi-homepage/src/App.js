@@ -29,7 +29,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<TopPage />} />
-        <Route path="doctor_introduction" element={<DoctorIntroduction />} />
+        <Route path="/doctor_introduction" element={<DoctorIntroduction />} />
 
       </Routes>
       {/* <RouterProvider router={router} /> */}
