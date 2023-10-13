@@ -2,7 +2,7 @@
   "dependencies": {
     "create-react-app": "^5.0.1",
     "react-router-dom": "^6.16.0",
-    "homepage": "https://doiy.github.io/yayoi_homepage",
+    "homepage": "https://doiy.github.io/yayoi_homepage"
 
   }
 }
