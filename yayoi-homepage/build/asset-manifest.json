@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/yayoi_homepage/static/css/main.6006a846.css",
-    "main.js": "/yayoi_homepage/static/js/main.73d4858e.js",
+    "main.js": "/yayoi_homepage/static/js/main.e9e927c3.js",
     "static/js/787.15b4ee7b.chunk.js": "/yayoi_homepage/static/js/787.15b4ee7b.chunk.js",
     "static/media/2.jpg": "/yayoi_homepage/static/media/2.3c2fedaee555bfb814f7.jpg",
     "index.html": "/yayoi_homepage/index.html",
     "main.6006a846.css.map": "/yayoi_homepage/static/css/main.6006a846.css.map",
-    "main.73d4858e.js.map": "/yayoi_homepage/static/js/main.73d4858e.js.map",
+    "main.e9e927c3.js.map": "/yayoi_homepage/static/js/main.e9e927c3.js.map",
     "787.15b4ee7b.chunk.js.map": "/yayoi_homepage/static/js/787.15b4ee7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6006a846.css",
-    "static/js/main.73d4858e.js"
+    "static/js/main.e9e927c3.js"
   ]
 }
