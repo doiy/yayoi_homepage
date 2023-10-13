@@ -67,7 +67,7 @@ const DoctorIntroduction = () => {
   return (
     <div>
       <div className="banner">
-          <img className="banner_img" src={process.env.PUBLIC_URL+"test.jpg"} alt="test" />
+          <img className="banner_img" src={process.env.PUBLIC_URL+"/test.jpg"} alt="test" />
       </div>
       
       <div className="title">
