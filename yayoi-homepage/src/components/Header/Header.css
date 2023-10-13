@@ -1,0 +1,56 @@
+
+header {
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 10;
+
+    border-bottom: 10px solid;
+    border-color:aqua;
+
+  }
+ 
+header .logo{
+  display: flex;
+  margin: 10px;
+} 
+
+header .logo h3 {
+    font-size: 30px;
+  
+  }
+
+nav ul{
+  align-items: center; /* リストアイテムを垂直方向に中央揃え */
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative; /* 相対位置指定 */
+
+    &::after {
+      content: "｜"; /* 縦棒の表示 */
+      position: absolute; /* 絶対位置指定 */
+    }
+  }
+  
+nav ul li:last-child::after {
+  content: ""; /* 空のコンテンツを表示しない */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+  }
+nav ul li a:hover{
+    color: blue
+  }
+
