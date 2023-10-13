@@ -1,13 +1,16 @@
 import React from 'react';
 import './Header.css'
 import Button from '@mui/material/Button';
+import { styled } from "@mui/system";
 
 const Header = () => {
   return (
     <header>
         <div className="logo">
             <h3>东京国际医疗(肿瘤)中心</h3>
-            <Button variant="contained" size="medium">患者登録はこちら</Button>
+            <div className="Button">
+                <Button variant="contained" size="medium">患者登録はこちら</Button>
+            </div>
 
         </div>   
         <div className="items">
