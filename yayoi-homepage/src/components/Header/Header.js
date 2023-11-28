@@ -24,7 +24,7 @@ const Header = () => {
                         <a href="#">セカンドオピニオンオンライン診療</a>
                     </li>
                     <li>
-                        <a href="doctor_introduction">医師紹介</a>
+                        <Link to="/doctor_introduction">医師紹介</Link>
                     </li>
                     <li>
                         <a href="#">综合内科门诊</a>
