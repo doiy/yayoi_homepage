@@ -31,15 +31,17 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<TopPage />} />
-        <Route path="/doctor_introduction" element={<DoctorIntroduction />} />
-        <Route path="/test" element={<PatientRegistration />} />
-        <Route path="/test2" element={<ApplicationForm />} />
-        <Route path="/second_opinion" element={<SecondOpinion />} />
+      <Router>
+        <Routes>
+          <Route path="/" element={<TopPage />} />
+          <Route path="/doctor_introduction" element={<DoctorIntroduction />} />
+          <Route path="/test" element={<PatientRegistration />} />
+          <Route path="/test2" element={<ApplicationForm />} />
+          <Route path="/second_opinion" element={<SecondOpinion />} />
 
 
-      </Routes>
+        </Routes>
+      </Router>
       {/* <RouterProvider router={router} /> */}
       
     </div>
