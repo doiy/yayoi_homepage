@@ -8,9 +8,13 @@ const Header = () => {
   return (
     <header>
         <div className="logo">
-            <h3>东京国际医疗(肿瘤)中心</h3>
+            <Link className="hospital-name" to="/">
+                <h3>东京国际医疗(肿瘤)中心</h3>
+            </Link>
             <div className="Button">
-                <Button variant="contained" size="medium">患者登録はこちら</Button>
+                <Link to="/patient_registration">
+                    <Button variant="contained" size="medium">患者登録はこちら</Button>
+                </Link>
             </div>
 
         </div>   
@@ -21,7 +25,7 @@ const Header = () => {
                         <a href="#">About us</a>
                     </li>
                     <li>
-                        <a href="#">セカンドオピニオンオンライン診療</a>
+                        <Link to="/second_opinion">セカンドオピニオンオンライン診療</Link>
                     </li>
                     <li>
                         <Link to="/doctor_introduction">医師紹介</Link>

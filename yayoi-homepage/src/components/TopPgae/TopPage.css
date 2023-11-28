@@ -1,0 +1,15 @@
+.top-page-container {
+  text-align: left;
+  margin: 20px;
+  white-space: pre-line;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.ope_img{
+  width: 100%; /* 幅を100%に設定 */
+  height: 300px; /* 高さを100%に設定 */
+  object-fit: cover; /* 画像を引き伸ばして親要素に合わせる */
+}

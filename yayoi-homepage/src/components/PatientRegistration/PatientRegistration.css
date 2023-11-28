@@ -1,6 +1,7 @@
 form {
   max-width: 400px;
   margin: 0 auto;
+  
 }
 
 div {
@@ -20,6 +21,7 @@ input[type="radio"] {
   padding: 10px;
   box-sizing: border-box;
   margin-top: 5px;
+  
 }
 
 /* スタイルを追加 */
@@ -58,6 +60,7 @@ button:hover {
 .my-form-container {
   max-width: 500px;
   margin: 0 auto;
+  
 }
 
 .my-form-container h2 {

@@ -14,6 +14,19 @@ header {
 
   }
  
+.hospital-name {
+  cursor: pointer;
+  text-decoration: none; /* アンダーラインを削除 */
+  color: black; /* リンクのデフォルトの色 */
+}
+
+.hospital-name:hover,
+.hospital-name:active,
+.hospital-name:focus {
+  color: black; /* ホバーやクリック時に色が変わらないようにする */
+  outline: none; /* クリック時のアウトラインを削除 */
+}
+
 header .logo{
   display: flex;
   margin: 10px;

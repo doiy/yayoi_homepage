@@ -32,24 +32,28 @@ const SecondOpinion = () => {
 
       <div className="section-container">
         <h3>4.海外远程第二诊疗意见的实施流程</h3>
-        <ul className="custom-ordered-list">
+        <ol className="custom-ordered-list">
           <li>在本中心的网站上注册就诊卡</li>
           <li>请在线填写远程医疗会诊所需的资料:病历说明和远程咨询申请书。将需要的文件发送至support@hosp.ncgm.go.jp 邮箱。</li>
-          <li>所需资料</li>
-          <ol className="custom-ordered-list2">
+          <li>
+            所需资料
+            <ol className="custom-ordered-list2" >
               <li>①主治医生填写诊疗信息报告 [原件和日语或翻译]（PDF）检查数据[图像以外]（PDF）</li>
               <li>②请将图像数据文件（如果有）的扩展名用DICOM文件格式保存用CD-ROM刻录后邮寄到本中心。在电子邮件中插入附件方式以及云端大容量文件下载方式不予受理。另外,邮寄收到的文  件材料恕不退还。邮寄地址：〒162-8655 东京都文京区弥生1-21-1东京国际医疗(肿瘤)中心 国际医疗部</li>
               <li>③提交所需文件后,本中心专家评估后能否实施海外远程第二诊疗意见进行判断。</li>
               <li>④如果能够实施海外远程第二诊疗意见,本中心通知您汇款账号信息。确认汇款后,调整安排日程实施海外远程第二诊疗意见连线呼叫测试。连线呼叫测试一般在实施海外远程第二诊疗意见的前一天进行。正式实施海外远程第二诊疗意见。</li>
-          </ol>
-          <li>远程医疗咨询费用</li>
-          <ol className="custom-ordered-list2">
+            </ol>
+          </li>
+          <li>
+            远程医疗咨询费用
+            <ol className="custom-ordered-list2">
               <li>①初诊:12000日元、复诊10000日元</li>
               <li>②文字书面咨询:一次58000日元</li>
               <li>③远程视频连线咨询:45分种120,000日元/超时10分种加10000</li>
               <li>④病历翻译/68,000</li>
-          </ol>
-        </ul>
+            </ol>
+          </li>
+        </ol>
       </div>
 
       <div className="section-container">
