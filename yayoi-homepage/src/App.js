@@ -7,7 +7,7 @@ import ApplicationForm from './components/ApplicationForm/ApplicationForm';
 import SecondOpinion from './components/SecondOpinion/SecondOpinion';
 
 import TopPage from './components/TopPgae/TopPage';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import {
   createBrowserRouter,
