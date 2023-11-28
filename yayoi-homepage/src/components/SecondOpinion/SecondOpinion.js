@@ -71,6 +71,17 @@ const SecondOpinion = () => {
           </ul>
         </div>
       </div>
+      <p>如果您有任何关于我们的服务和支持的问题，请通过电话或电邮通知我们。</p>
+      <div className="section-container">
+          <ul>
+            <li>联系方式</li>
+            <li>国际医疗部</li>
+            <li>电话：+81-3-</li>
+            <li>邮寄地址：邮政编码</li>
+            <li>电邮：</li>
+            <li>办公时间（日本时间）：9:00-17:00 (周一到周五)</li>
+          </ul>
+      </div>
     </div>
   );
 };
