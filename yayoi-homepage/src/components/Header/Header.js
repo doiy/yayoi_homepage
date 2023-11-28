@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css'
 import Button from '@mui/material/Button';
 import { styled } from "@mui/system";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
