@@ -1,4 +1,3 @@
-import logo from './2.jpg';
 import './App.css';
 import React from 'react';
 import Header from './components/Header/Header';
@@ -7,8 +6,11 @@ import PatientRegistration from './components/PatientRegistration/PatientRegistr
 import ApplicationForm from './components/ApplicationForm/ApplicationForm';
 import SecondOpinion from './components/SecondOpinion/SecondOpinion';
 import TopPage from './components/TopPgae/TopPage';
+import InternationalExchange from './components/InternationalExchange/InternationalExchange';
 
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import BusinessPartnership from './components/BusinessPartnership/BusinessPartnership';
+import QandA from './components/QandA/QandA';
 
 function App() {
   return (
@@ -19,7 +21,12 @@ function App() {
         <Route path="/doctor_introduction" element={<DoctorIntroduction />} />
         <Route path="/patient_registration" element={<PatientRegistration />} />
         <Route path="/application_form" element={<ApplicationForm />} />
+        <Route path="/international_exchange" element={<InternationalExchange />} />
         <Route path="/second_opinion" element={<SecondOpinion />} />
+        <Route path="/business_partnership" element={<BusinessPartnership />} />
+        <Route path="/qanda" element={<QandA />} />
+
+
       </Routes>
     </div>
   );

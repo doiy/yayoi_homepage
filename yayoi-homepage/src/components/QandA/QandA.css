@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: left; /* テキストを左詰めにするスタイルを追加 */
+}
+
+div .banner {
+  width: 100%; /* 画像の幅を親要素の100%に設定 */
+  max-width: 100%; /* 画像の最大幅を親要素の100%に設定 */
+
+  max-height: 200px; /* 高さを自動調整してアスペクト比を維持 */
+}
+
+div .field{
+  font-size: 175%;
+  font-weight: bold;
+}
+
+div .title{
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner_img{
+  width: 100%; /* 幅を100%に設定 */
+  height: 150px; /* 高さを100%に設定 */
+  object-fit: cover; /* 画像を引き伸ばして親要素に合わせる */
+}

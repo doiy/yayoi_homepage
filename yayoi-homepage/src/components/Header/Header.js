@@ -37,13 +37,13 @@ const Header = () => {
                         <a href="#">PET健康診断</a>
                     </li>
                     <li>
-                        <a href="#">Q&A</a>
+                        <Link to="/qnada">Q&A</Link>
                     </li>
                     <li>
-                        <a href="#">国際交流</a>
+                        <Link to="/international_exchange">国際交流</Link>
                     </li>
                     <li>
-                        <a href="#">業務提携</a>
+                        <Link to="/business_partnership">業務提携</Link>
                     </li>    
                     <li>
                         <a href="#">アクセス</a>
