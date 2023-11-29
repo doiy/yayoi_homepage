@@ -12,6 +12,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import BusinessPartnership from './components/BusinessPartnership/BusinessPartnership';
 import QandA from './components/QandA/QandA';
 import Access from './components/Access/Access';
+import InternalMedicine from './components/InternalMedicine/InternalMedicine';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path="/business_partnership" element={<BusinessPartnership />} />
         <Route path="/qanda" element={<QandA />} />
         <Route path="/access" element={<Access />} />
+        <Route path="/internal_medicine" element={<InternalMedicine />} />
+
 
 
 

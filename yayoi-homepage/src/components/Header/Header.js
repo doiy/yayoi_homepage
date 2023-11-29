@@ -31,7 +31,7 @@ const Header = () => {
                         <Link to="/doctor_introduction">医師紹介</Link>
                     </li>
                     <li>
-                        <a href="#">综合内科门诊</a>
+                        <Link to="/internal_medicine">综合内科门诊</Link>
                     </li>
                     <li>
                         <a href="#">PET健康診断</a>
