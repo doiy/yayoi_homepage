@@ -46,7 +46,7 @@ const Header = () => {
                         <Link to="/business_partnership">業務提携</Link>
                     </li>    
                     <li>
-                        <a href="#">アクセス</a>
+                        <Link to="/access">アクセス</Link>
                     </li>
                     <li>
                         <a href="#">お問合せ</a>

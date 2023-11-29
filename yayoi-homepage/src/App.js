@@ -11,6 +11,7 @@ import InternationalExchange from './components/InternationalExchange/Internatio
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import BusinessPartnership from './components/BusinessPartnership/BusinessPartnership';
 import QandA from './components/QandA/QandA';
+import Access from './components/Access/Access';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/second_opinion" element={<SecondOpinion />} />
         <Route path="/business_partnership" element={<BusinessPartnership />} />
         <Route path="/qanda" element={<QandA />} />
+        <Route path="/access" element={<Access />} />
+
 
 
       </Routes>
